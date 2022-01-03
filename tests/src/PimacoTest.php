@@ -1,9 +1,9 @@
 <?php
-namespace Proner\PhpPimacoTest;
+namespace HLMI\PhpPimacoTest;
 
 use PHPUnit\Framework\TestCase;
-use Proner\PhpPimaco\Pimaco;
-use Proner\PhpPimaco\Tag;
+use HLMI\PhpPimaco\Pimaco;
+use HLMI\PhpPimaco\Tag;
 
 class PimacoTest extends TestCase
 {

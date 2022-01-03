@@ -1,8 +1,8 @@
 <?php
 declare(strict_types = 1);
-namespace Proner\PhpPimaco;
+namespace HLMI\PhpPimaco;
 
-use Mpdf\Mpdf;
+use Fpdf\Fpdf;
 
 class Pimaco
 {
@@ -59,7 +59,7 @@ class Pimaco
         }
 
         try {
-            $this->pdf = new Mpdf($config);
+            $this->pdf = new Fpdf($config);
         } catch (\Exception $e) {
             throw $e;
         }

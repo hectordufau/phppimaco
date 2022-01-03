@@ -1,29 +1,29 @@
 {
-    "name": "dbemfica/phppimaco",
-    "description": "Lib para geração de Etiquetas PIMACO",
-    "keywords": ["PIMACO", "etiquetas","tags","hang tags"],
+    "name": "hectordufau/phppimaco",
+    "description": "Lib para geração de Etiquetas PIMACO versao FPDF",
+    "keywords": ["PIMACO", "etiquetas","tags","hang tags", "fpdf"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Diogo Bemfica",
-            "email": "diogo.fragabemfica@gmail.com"
+            "name": "Hector Dufau",
+            "email": "contato@hectordufau.com.br"
         }
     ],
     "autoload": {
         "psr-4": {
-            "Proner\\PhpPimaco\\": "src/"
+            "HLMI\\PhpPimaco\\": "src/"
         }
     },
     "require": {
         "php": ">=7.0",
         "ext-json": "*",
-        "mpdf/mpdf": "^8.0",
         "endroid/qr-code": "^2.5",
-        "picqer/php-barcode-generator": "^0.4"
+        "picqer/php-barcode-generator": "^0.4",
+        "fpdf/fpdf": "^1.83"
     },
     "autoload-dev": {
         "psr-4": {
-            "Proner\\PhpPimacoTest\\": "tests/"
+            "HLMI\\PhpPimacoTest\\": "tests/"
         }
     },
     "require-dev": {

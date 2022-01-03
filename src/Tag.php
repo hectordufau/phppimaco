@@ -1,11 +1,11 @@
 <?php
 declare(strict_types = 1);
-namespace Proner\PhpPimaco;
+namespace HLMI\PhpPimaco;
 
-use Proner\PhpPimaco\Tags\Barcode;
-use Proner\PhpPimaco\Tags\Img;
-use Proner\PhpPimaco\Tags\P;
-use Proner\PhpPimaco\Tags\QrCode;
+use HLMI\PhpPimaco\Tags\Barcode;
+use HLMI\PhpPimaco\Tags\Img;
+use HLMI\PhpPimaco\Tags\P;
+use HLMI\PhpPimaco\Tags\QrCode;
 
 class Tag
 {

@@ -1,8 +1,8 @@
 <?php
-namespace Proner\PhpPimacoTest;
+namespace HLMI\PhpPimacoTest;
 
 use PHPUnit\Framework\TestCase;
-use Proner\PhpPimaco\Tags\Img;
+use HLMI\PhpPimaco\Tags\Img;
 
 class ImgTest extends TestCase
 {

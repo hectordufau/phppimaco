@@ -1,10 +1,10 @@
 <?php
-namespace Proner\PhpPimacoTest;
+namespace HLMI\PhpPimacoTest;
 
 use PHPUnit\Framework\TestCase;
-use Proner\PhpPimaco\Tags\Barcode;
-use Proner\PhpPimaco\Tags\P;
-use Proner\PhpPimaco\Tag;
+use HLMI\PhpPimaco\Tags\Barcode;
+use HLMI\PhpPimaco\Tags\P;
+use HLMI\PhpPimaco\Tag;
 
 class TagTest extends TestCase
 {

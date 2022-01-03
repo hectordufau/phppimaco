@@ -1,8 +1,8 @@
 <?php
-namespace Proner\PhpPimacoTest;
+namespace HLMI\PhpPimacoTest;
 
 use PHPUnit\Framework\TestCase;
-use Proner\PhpPimaco\Tags\P;
+use HLMI\PhpPimaco\Tags\P;
 
 class PTest extends TestCase
 {
